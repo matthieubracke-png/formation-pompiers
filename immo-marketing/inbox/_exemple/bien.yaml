@@ -1,0 +1,20 @@
+# EXEMPLE — copie ce dossier ou lance: python -m immo new mon-bien
+# Remplis ce qui est connu. Tout champ vide reste vide : rien n'est inventé.
+a_verifier: true         # passe à false quand tu as relu (obligatoire pour publier)
+ref: ""
+transaction: vente       # vente | location
+statut: disponible       # disponible | sous_compromis | vendu | loue
+type_bien: appartement   # appartement | maison | terrain | local ...
+titre: ""
+ville: ""
+quartier: ""
+prix: null               # vente: prix FAI en € ; location: loyer mensuel CC
+surface: null            # m² habitables
+pieces: null
+chambres: null
+etage: ""
+atouts: []               # ex: ["balcon plein sud", "parking", "proche tram"]
+dpe: ""                  # classe énergie A-G (OBLIGATOIRE dans l'annonce)
+ges: ""
+honoraires: ""           # texte exact, ex: "Honoraires 4 % TTC à la charge de l'acquéreur" (OBLIGATOIRE)
+description: ""

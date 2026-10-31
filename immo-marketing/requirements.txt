@@ -1,0 +1,4 @@
+Pillow>=10
+PyYAML>=6
+requests>=2.31
+pypdf>=4

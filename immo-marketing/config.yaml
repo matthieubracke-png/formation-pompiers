@@ -1,0 +1,45 @@
+# ============================================================
+#  CONFIGURATION — c'est le SEUL fichier à remplir une fois.
+# ============================================================
+agent:
+  nom: "Prénom Nom"
+  agence: "Nom de l'agence"
+  ville: "Ville"
+  telephone: "06 00 00 00 00"
+  ton: "professionnel, chaleureux, direct"
+  vouvoiement: true
+
+brand:
+  couleur_principale: "#0B3D5C"
+  couleur_accent: "#F2A900"
+  logo: null            # chemin vers un logo PNG (optionnel)
+  police: null          # chemin vers un .ttf (optionnel, sinon DejaVu)
+  photos_marque: brand/ # photos de toi / de ta ville / de l'agence (optionnel)
+
+timezone: "Europe/Paris"
+horizon_jours: 14        # combien de jours le planning anticipe
+mix_biens: 0.65          # 65 % biens, 35 % contenu de marque personnelle
+relance_bien_jours: 10   # on re-poste un bien actif au plus tous les N jours / réseau
+
+llm:
+  model: "claude-sonnet-5-5"   # clé lue dans la variable ANTHROPIC_API_KEY
+  # Sans clé : textes générés par modèles fixes (moins variés, mais fonctionnels).
+
+# Réseaux : formats = carousel | reel | photo ; heures locales
+plateformes:
+  instagram: { formats: [carousel, reel], par_semaine: 5, heures: ["12:30", "18:30"] }
+  facebook:  { formats: [carousel, reel], par_semaine: 4, heures: ["12:00", "19:00"] }
+  linkedin:  { formats: [carousel],       par_semaine: 3, heures: ["08:30"] }
+  tiktok:    { formats: [reel],           par_semaine: 4, heures: ["18:00", "20:00"] }
+  youtube:   { formats: [reel],           par_semaine: 2, heures: ["17:00"] }
+
+# Publication : "manual" (dossiers prêts à poster + TODAY.md) ou "webhook" (Make/Zapier/n8n)
+publication:
+  mode: manual
+  webhook_url: null
+
+# Voix off pour les vidéos (optionnel). Commande locale de synthèse vocale.
+# Placeholders : {text_file} (texte) et {out} (wav/mp3 à produire).
+voix:
+  commande: null
+  musique: null          # chemin vers un mp3 libre de droits (optionnel)

@@ -1,0 +1,25 @@
+# NON TESTÉ dans l'environnement de développement (pas d'accès à GitHub Actions).
+# Lance les agents chaque matin. L'état (out/) est recommité pour garder le planning entre deux runs.
+name: immo-marketing-daily
+on:
+  schedule: [{ cron: "0 6 * * *" }]
+  workflow_dispatch: {}
+permissions: { contents: write }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: immo-marketing } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - run: pip install -r requirements.txt
+      - run: python -m immo run
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Sauvegarde du planning et des visuels
+        run: |
+          git config user.name "immo-bot"; git config user.email "immo-bot@users.noreply.github.com"
+          git add -A out inbox
+          git diff --cached --quiet || (git commit -m "immo: run quotidien [skip ci]" && git push)
