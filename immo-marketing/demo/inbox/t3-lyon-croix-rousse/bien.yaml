@@ -1,0 +1,18 @@
+a_verifier: false
+ref: A100
+transaction: vente
+statut: disponible
+type_bien: appartement
+ville: Lyon
+quartier: Croix-Rousse
+prix: 345000
+surface: 72
+pieces: 3
+chambres: 2
+atouts:
+- balcon plein sud
+- parking
+- proche métro
+dpe: C
+ges: B
+honoraires: Honoraires 4 % TTC à la charge de l'acquéreur
