@@ -32,7 +32,12 @@ Chaque jour, relance `python -m immo run` (cron, tâche planifiée, ou le workfl
 
 ## Ce qui n'est PAS automatique — à lire
 
-1. **Publication directe sur Instagram/Facebook/LinkedIn/TikTok/YouTube : non codée.** Chaque réseau exige
+0. **Facebook + Instagram en direct (mode `meta`)** : codé d'après la doc publique de l'API Graph et testé contre un
+   **faux serveur** uniquement. Jamais exécuté contre le vrai Meta. Il te faut : une Page Facebook, un compte Instagram
+   pro lié, une app Meta avec les permissions de publication (validation éventuelle par Meta), un jeton dans
+   `META_ACCESS_TOKEN`, et pour Instagram une URL publique où `out/` est servi (`media_base_url`). Réglage réseau par
+   réseau via `publication.par_plateforme`. LinkedIn, TikTok, YouTube : pas d'API directe codée → `webhook` ou `manual`.
+1. **Publication directe LinkedIn/TikTok/YouTube : non codée.** Chaque réseau exige
    un compte pro, une app et une validation/clé API que je ne peux ni créer ni tester d'ici. Deux voies, toutes deux
    fonctionnelles dans le code : (a) mode `manual` — tu postes en 30 s depuis `out/ready/` (tu as dit en être prêt) ;
    (b) mode `webhook` — tu crées un scénario Make/Zapier/n8n qui reçoit le POST (légende + médias) et publie.

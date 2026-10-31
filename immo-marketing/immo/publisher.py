@@ -17,12 +17,19 @@ def due(cfg, state, now=None):
 
 
 def publish(cfg, state, outroot, now=None):
-    mode = cfg["publication"]["mode"]
+    pub = cfg["publication"]
     done = []
+    meta = None
     ready_root = Path(outroot) / "ready"
     for it in due(cfg, state, now):
+        mode = (pub.get("par_plateforme") or {}).get(it["platform"], pub["mode"])
         try:
-            if mode == "manual":
+            if mode == "meta":
+                from .meta import Meta
+                meta = meta or Meta(cfg, outroot)
+                it["post_id"] = meta.publish(it)
+                it["status"] = "published"
+            elif mode == "manual":
                 d = ready_root / f"{it['when'][:10]}_{it['platform']}_{it['id']}"
                 d.mkdir(parents=True, exist_ok=True)
                 for m in it["media"]:
@@ -50,7 +57,7 @@ def publish(cfg, state, outroot, now=None):
         except Exception as e:  # une erreur ne bloque pas les autres posts
             it["status"] = "error"
             it["error"] = str(e)[:300]
-    if mode == "manual":
+    if any(i["status"] == "ready" for i in state.get("schedule", [])) or pub["mode"] == "manual":
         write_today(state, ready_root)
     return done
 

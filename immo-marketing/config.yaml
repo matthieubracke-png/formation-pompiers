@@ -35,8 +35,15 @@ plateformes:
 
 # Publication : "manual" (dossiers prêts à poster + TODAY.md) ou "webhook" (Make/Zapier/n8n)
 publication:
-  mode: manual
+  mode: manual           # manual | webhook | meta (défaut pour tous les réseaux)
   webhook_url: null
+  # Choix réseau par réseau (ex: Facebook/Instagram en direct, le reste en manuel) :
+  par_plateforme: {}     # {facebook: meta, instagram: meta, linkedin: manual, tiktok: webhook}
+  meta:                  # jeton dans la variable META_ACCESS_TOKEN
+    page_id: null
+    ig_user_id: null
+    media_base_url: null # URL publique où out/ est servi (obligatoire pour Instagram)
+    graph_version: "v21.0"
 
 # Voix off pour les vidéos (optionnel). Commande locale de synthèse vocale.
 # Placeholders : {text_file} (texte) et {out} (wav/mp3 à produire).
