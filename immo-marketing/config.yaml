@@ -57,3 +57,7 @@ avatar:
   dossier: brand/avatar     # clip : mets-y des .mp4 de présentateur (vidéos générées par l'outil de ton choix)
   photo_url: null           # did : URL publique d'UNE photo de face (clé dans DID_API_KEY)
   voix: "fr-FR-DeniseNeural"
+
+# Rendu des animations (25 = qualité réseaux sociaux ; baisse pour tester plus vite)
+rendu:
+  fps: 25

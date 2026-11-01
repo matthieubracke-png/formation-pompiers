@@ -35,6 +35,7 @@ class Base(unittest.TestCase):
         self.cfg["_base"] = str(self.tmp)
         self.cfg["horizon_jours"] = 7
         self.cfg["voix"] = {"commande": None, "musique": None}
+        self.cfg["rendu"] = {"fps": 4}  # tests rapides
 
     def tearDown(self):
         llm.set_backend(None)

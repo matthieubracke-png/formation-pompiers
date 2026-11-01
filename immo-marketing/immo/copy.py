@@ -90,25 +90,9 @@ def property_post(prop, platform, cfg):
     return {"caption": caption, "script": data["script"], "hook": data["hook"]}
 
 
-# --- Contenu de marque personnelle (pas de chiffres inventés : aucun chiffre dans les sujets) ---
-TOPICS = [
-    ("Pourquoi une estimation gratuite ne vaut pas toujours une vraie estimation",
-     ["Le prix affiché n'est pas le prix de vente", "Un bon prix se justifie par des ventes comparables",
-      "Un prix trop haut allonge les délais", "Demande une estimation argumentée"]),
-    ("Les erreurs à éviter quand on met son bien en vente",
-     ["Ne pas préparer les photos", "Surestimer son bien", "Négliger les diagnostics",
-      "Se passer d'un accompagnement"]),
-    ("Acheter : les questions à poser avant de visiter",
-     ["Quel budget réel, frais compris ?", "Que dit le diagnostic énergétique ?",
-      "Quelles charges de copropriété ?", "Quel quartier à long terme ?"]),
-    ("Home staging : petits changements, grand effet",
-     ["Désencombre", "Lumière naturelle", "Neutralise les couleurs", "Soigne l'entrée"]),
-    ("Le DPE expliqué simplement",
-     ["Il note la performance énergétique", "De A à G", "Il influence la valeur et la location",
-      "Des travaux peuvent l'améliorer"]),
-    ("Comment se déroule une vente avec un agent",
-     ["Estimation", "Mise en valeur et diffusion", "Visites et offres", "Compromis puis acte"]),
-]
+# --- Contenu de marque personnelle : banque de sujets dans immo/topics.py ---
+from .topics import STORYBOARDS
+TOPICS = [(sb["titre"], sb["points"]) for sb in STORYBOARDS]
 
 
 def brand_post(topic_index, cfg):

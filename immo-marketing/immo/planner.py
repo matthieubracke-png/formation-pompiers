@@ -2,7 +2,7 @@
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
-from . import copy as copywriter, visuals, video, avatar as avatar_mod, learn
+from . import copy as copywriter, visuals, video, avatar as avatar_mod, learn, motion, topics
 
 
 def spread(n):
@@ -47,7 +47,18 @@ def _assets_brand(idx, fmt, post, cfg, outroot):
             av = avatar_mod.make(cfg, ". ".join(post["script"]), base / "avatar.mp4", f"marque-{idx}")
         except Exception as e:  # avatar indisponible => reel sans visage, on ne bloque pas
             print(f"[avatar] {e} -> reel sans visage")
-        video.build_reel(post["script"], [], cfg, f, avatar=av)
+        if av:
+            video.build_reel(post["script"], [], cfg, f, avatar=av)
+        else:
+            sb = topics.STORYBOARDS[idx % len(topics.STORYBOARDS)]
+            try:
+                import tempfile
+                with tempfile.TemporaryDirectory() as tmp:
+                    voice = video.tts(motion.script_lines(sb), cfg, tmp)
+                    motion.render(sb, cfg, f, voice=voice)
+            except Exception as e:  # pas de Node/Chromium => ancien montage photos/texte
+                print(f"[motion] {e} -> montage simple")
+                video.build_reel(post["script"], [], cfg, f)
     return [str(f)]
 
 
