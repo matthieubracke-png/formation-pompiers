@@ -59,7 +59,8 @@ def _fallback(prop, cfg):
     body = [specs] + [f"✔ {a}" for a in atouts[:4]]
     if d.get("description"):
         body.append(d["description"].strip().split("\n")[0][:240])
-    cta = f"Envie de visiter ? Écris-moi en message privé ou appelle le {cfg['agent']['telephone']}."
+    cta = (f"Envie de visiter ? Commente « INFO » ou écris-moi en message privé, "
+           f"ou appelle le {cfg['agent']['telephone']}.")
     script = [t] + ([specs] if specs else []) + atouts[:3] + [prop.prix_txt(), "Contacte-moi pour visiter"]
     return {"hook": hook, "body": "\n".join(b for b in body if b), "cta": cta,
             "script": [s for s in script if s]}

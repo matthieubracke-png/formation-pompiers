@@ -4,56 +4,7 @@
       "category": "biens",
       "ref": "A100",
       "format": "carousel",
-      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Écris-moi en message privé ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier",
-      "media": [
-        "demo/out/assets/A100/carousel/slide_01.jpg",
-        "demo/out/assets/A100/carousel/slide_02.jpg",
-        "demo/out/assets/A100/carousel/slide_03.jpg",
-        "demo/out/assets/A100/carousel/slide_04.jpg",
-        "demo/out/assets/A100/carousel/slide_05.jpg",
-        "demo/out/assets/A100/carousel/slide_06.jpg"
-      ],
-      "when": "2026-10-31T19:00:00+01:00",
-      "platform": "facebook",
-      "id": "20261031-1900-facebook",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-0",
-      "format": "reel",
-      "caption": "Pourquoi une estimation gratuite ne vaut pas toujours une vraie estimation 🏡\n\n→ Le prix affiché n'est pas le prix de vente\n→ Un bon prix se justifie par des ventes comparables\n→ Un prix trop haut allonge les délais\n→ Demande une estimation argumentée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-0/reel.mp4"
-      ],
-      "when": "2026-10-31T20:00:00+01:00",
-      "platform": "tiktok",
-      "id": "20261031-2000-tiktok",
-      "status": "planned"
-    },
-    {
-      "category": "biens",
-      "ref": "A100",
-      "format": "carousel",
-      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Écris-moi en message privé ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier #appartement #achatimmobilier #visite",
-      "media": [
-        "demo/out/assets/A100/carousel/slide_01.jpg",
-        "demo/out/assets/A100/carousel/slide_02.jpg",
-        "demo/out/assets/A100/carousel/slide_03.jpg",
-        "demo/out/assets/A100/carousel/slide_04.jpg",
-        "demo/out/assets/A100/carousel/slide_05.jpg",
-        "demo/out/assets/A100/carousel/slide_06.jpg"
-      ],
-      "when": "2026-11-01T12:30:00+01:00",
-      "platform": "instagram",
-      "id": "20261101-1230-instagram",
-      "status": "planned"
-    },
-    {
-      "category": "biens",
-      "ref": "A100",
-      "format": "carousel",
-      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Écris-moi en message privé ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier",
+      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Commente « INFO » ou écris-moi en message privé, ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier",
       "media": [
         "demo/out/assets/A100/carousel/slide_01.jpg",
         "demo/out/assets/A100/carousel/slide_02.jpg",
@@ -69,262 +20,6 @@
     },
     {
       "category": "marque",
-      "ref": "marque-2",
-      "format": "carousel",
-      "caption": "Acheter : les questions à poser avant de visiter 🏡\n\n→ Quel budget réel, frais compris ?\n→ Que dit le diagnostic énergétique ?\n→ Quelles charges de copropriété ?\n→ Quel quartier à long terme ?\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-2/carousel/slide_01.jpg",
-        "demo/out/assets/marque-2/carousel/slide_02.jpg",
-        "demo/out/assets/marque-2/carousel/slide_03.jpg",
-        "demo/out/assets/marque-2/carousel/slide_04.jpg",
-        "demo/out/assets/marque-2/carousel/slide_05.jpg",
-        "demo/out/assets/marque-2/carousel/slide_06.jpg"
-      ],
-      "when": "2026-11-02T12:00:00+01:00",
-      "platform": "facebook",
-      "id": "20261102-1200-facebook",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-1",
-      "format": "carousel",
-      "caption": "Les erreurs à éviter quand on met son bien en vente 🏡\n\n→ Ne pas préparer les photos\n→ Surestimer son bien\n→ Négliger les diagnostics\n→ Se passer d'un accompagnement\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-1/carousel/slide_01.jpg",
-        "demo/out/assets/marque-1/carousel/slide_02.jpg",
-        "demo/out/assets/marque-1/carousel/slide_03.jpg",
-        "demo/out/assets/marque-1/carousel/slide_04.jpg",
-        "demo/out/assets/marque-1/carousel/slide_05.jpg",
-        "demo/out/assets/marque-1/carousel/slide_06.jpg"
-      ],
-      "when": "2026-11-02T12:30:00+01:00",
-      "platform": "instagram",
-      "id": "20261102-1230-instagram",
-      "status": "planned"
-    },
-    {
-      "category": "biens",
-      "ref": "A100",
-      "format": "reel",
-      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Écris-moi en message privé ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier",
-      "media": [
-        "demo/out/assets/A100/reel.mp4"
-      ],
-      "when": "2026-11-02T17:00:00+01:00",
-      "platform": "youtube",
-      "id": "20261102-1700-youtube",
-      "status": "planned"
-    },
-    {
-      "category": "biens",
-      "ref": "A100",
-      "format": "reel",
-      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Écris-moi en message privé ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier #appartement",
-      "media": [
-        "demo/out/assets/A100/reel.mp4"
-      ],
-      "when": "2026-11-02T18:00:00+01:00",
-      "platform": "tiktok",
-      "id": "20261102-1800-tiktok",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-3",
-      "format": "reel",
-      "caption": "Home staging : petits changements, grand effet 🏡\n\n→ Désencombre\n→ Lumière naturelle\n→ Neutralise les couleurs\n→ Soigne l'entrée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-3/reel.mp4"
-      ],
-      "when": "2026-11-03T18:30:00+01:00",
-      "platform": "instagram",
-      "id": "20261103-1830-instagram",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-5",
-      "format": "carousel",
-      "caption": "Comment se déroule une vente avec un agent 🏡\n\n→ Estimation\n→ Mise en valeur et diffusion\n→ Visites et offres\n→ Compromis puis acte\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-5/carousel/slide_01.jpg",
-        "demo/out/assets/marque-5/carousel/slide_02.jpg",
-        "demo/out/assets/marque-5/carousel/slide_03.jpg",
-        "demo/out/assets/marque-5/carousel/slide_04.jpg",
-        "demo/out/assets/marque-5/carousel/slide_05.jpg",
-        "demo/out/assets/marque-5/carousel/slide_06.jpg"
-      ],
-      "when": "2026-11-04T08:30:00+01:00",
-      "platform": "linkedin",
-      "id": "20261104-0830-linkedin",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-4",
-      "format": "reel",
-      "caption": "Le DPE expliqué simplement 🏡\n\n→ Il note la performance énergétique\n→ De A à G\n→ Il influence la valeur et la location\n→ Des travaux peuvent l'améliorer\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-4/reel.mp4"
-      ],
-      "when": "2026-11-04T19:00:00+01:00",
-      "platform": "facebook",
-      "id": "20261104-1900-facebook",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-0",
-      "format": "reel",
-      "caption": "Pourquoi une estimation gratuite ne vaut pas toujours une vraie estimation 🏡\n\n→ Le prix affiché n'est pas le prix de vente\n→ Un bon prix se justifie par des ventes comparables\n→ Un prix trop haut allonge les délais\n→ Demande une estimation argumentée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-0/reel.mp4"
-      ],
-      "when": "2026-11-04T20:00:00+01:00",
-      "platform": "tiktok",
-      "id": "20261104-2000-tiktok",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-1",
-      "format": "carousel",
-      "caption": "Les erreurs à éviter quand on met son bien en vente 🏡\n\n→ Ne pas préparer les photos\n→ Surestimer son bien\n→ Négliger les diagnostics\n→ Se passer d'un accompagnement\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-1/carousel/slide_01.jpg",
-        "demo/out/assets/marque-1/carousel/slide_02.jpg",
-        "demo/out/assets/marque-1/carousel/slide_03.jpg",
-        "demo/out/assets/marque-1/carousel/slide_04.jpg",
-        "demo/out/assets/marque-1/carousel/slide_05.jpg",
-        "demo/out/assets/marque-1/carousel/slide_06.jpg"
-      ],
-      "when": "2026-11-05T12:30:00+01:00",
-      "platform": "instagram",
-      "id": "20261105-1230-instagram",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-3",
-      "format": "carousel",
-      "caption": "Home staging : petits changements, grand effet 🏡\n\n→ Désencombre\n→ Lumière naturelle\n→ Neutralise les couleurs\n→ Soigne l'entrée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-3/carousel/slide_01.jpg",
-        "demo/out/assets/marque-3/carousel/slide_02.jpg",
-        "demo/out/assets/marque-3/carousel/slide_03.jpg",
-        "demo/out/assets/marque-3/carousel/slide_04.jpg",
-        "demo/out/assets/marque-3/carousel/slide_05.jpg",
-        "demo/out/assets/marque-3/carousel/slide_06.jpg"
-      ],
-      "when": "2026-11-06T12:00:00+01:00",
-      "platform": "facebook",
-      "id": "20261106-1200-facebook",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-5",
-      "format": "reel",
-      "caption": "Comment se déroule une vente avec un agent 🏡\n\n→ Estimation\n→ Mise en valeur et diffusion\n→ Visites et offres\n→ Compromis puis acte\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-5/reel.mp4"
-      ],
-      "when": "2026-11-06T17:00:00+01:00",
-      "platform": "youtube",
-      "id": "20261106-1700-youtube",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-4",
-      "format": "reel",
-      "caption": "Le DPE expliqué simplement 🏡\n\n→ Il note la performance énergétique\n→ De A à G\n→ Il influence la valeur et la location\n→ Des travaux peuvent l'améliorer\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-4/reel.mp4"
-      ],
-      "when": "2026-11-06T18:00:00+01:00",
-      "platform": "tiktok",
-      "id": "20261106-1800-tiktok",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-2",
-      "format": "reel",
-      "caption": "Acheter : les questions à poser avant de visiter 🏡\n\n→ Quel budget réel, frais compris ?\n→ Que dit le diagnostic énergétique ?\n→ Quelles charges de copropriété ?\n→ Quel quartier à long terme ?\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-2/reel.mp4"
-      ],
-      "when": "2026-11-06T18:30:00+01:00",
-      "platform": "instagram",
-      "id": "20261106-1830-instagram",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-1",
-      "format": "carousel",
-      "caption": "Les erreurs à éviter quand on met son bien en vente 🏡\n\n→ Ne pas préparer les photos\n→ Surestimer son bien\n→ Négliger les diagnostics\n→ Se passer d'un accompagnement\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-1/carousel/slide_01.jpg",
-        "demo/out/assets/marque-1/carousel/slide_02.jpg",
-        "demo/out/assets/marque-1/carousel/slide_03.jpg",
-        "demo/out/assets/marque-1/carousel/slide_04.jpg",
-        "demo/out/assets/marque-1/carousel/slide_05.jpg",
-        "demo/out/assets/marque-1/carousel/slide_06.jpg"
-      ],
-      "when": "2026-11-07T08:30:00+01:00",
-      "platform": "linkedin",
-      "id": "20261107-0830-linkedin",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-0",
-      "format": "reel",
-      "caption": "Pourquoi une estimation gratuite ne vaut pas toujours une vraie estimation 🏡\n\n→ Le prix affiché n'est pas le prix de vente\n→ Un bon prix se justifie par des ventes comparables\n→ Un prix trop haut allonge les délais\n→ Demande une estimation argumentée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-0/reel.mp4"
-      ],
-      "when": "2026-11-07T19:00:00+01:00",
-      "platform": "facebook",
-      "id": "20261107-1900-facebook",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-2",
-      "format": "reel",
-      "caption": "Acheter : les questions à poser avant de visiter 🏡\n\n→ Quel budget réel, frais compris ?\n→ Que dit le diagnostic énergétique ?\n→ Quelles charges de copropriété ?\n→ Quel quartier à long terme ?\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-2/reel.mp4"
-      ],
-      "when": "2026-11-07T20:00:00+01:00",
-      "platform": "tiktok",
-      "id": "20261107-2000-tiktok",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-3",
-      "format": "carousel",
-      "caption": "Home staging : petits changements, grand effet 🏡\n\n→ Désencombre\n→ Lumière naturelle\n→ Neutralise les couleurs\n→ Soigne l'entrée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-3/carousel/slide_01.jpg",
-        "demo/out/assets/marque-3/carousel/slide_02.jpg",
-        "demo/out/assets/marque-3/carousel/slide_03.jpg",
-        "demo/out/assets/marque-3/carousel/slide_04.jpg",
-        "demo/out/assets/marque-3/carousel/slide_05.jpg",
-        "demo/out/assets/marque-3/carousel/slide_06.jpg"
-      ],
-      "when": "2026-11-08T12:30:00+01:00",
-      "platform": "instagram",
-      "id": "20261108-1230-instagram",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
       "ref": "marque-0",
       "format": "carousel",
       "caption": "Pourquoi une estimation gratuite ne vaut pas toujours une vraie estimation 🏡\n\n→ Le prix affiché n'est pas le prix de vente\n→ Un bon prix se justifie par des ventes comparables\n→ Un prix trop haut allonge les délais\n→ Demande une estimation argumentée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
@@ -336,53 +31,40 @@
         "demo/out/assets/marque-0/carousel/slide_05.jpg",
         "demo/out/assets/marque-0/carousel/slide_06.jpg"
       ],
-      "when": "2026-11-09T08:30:00+01:00",
-      "platform": "linkedin",
-      "id": "20261109-0830-linkedin",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-5",
-      "format": "carousel",
-      "caption": "Comment se déroule une vente avec un agent 🏡\n\n→ Estimation\n→ Mise en valeur et diffusion\n→ Visites et offres\n→ Compromis puis acte\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-5/carousel/slide_01.jpg",
-        "demo/out/assets/marque-5/carousel/slide_02.jpg",
-        "demo/out/assets/marque-5/carousel/slide_03.jpg",
-        "demo/out/assets/marque-5/carousel/slide_04.jpg",
-        "demo/out/assets/marque-5/carousel/slide_05.jpg",
-        "demo/out/assets/marque-5/carousel/slide_06.jpg"
-      ],
-      "when": "2026-11-09T12:00:00+01:00",
+      "when": "2026-11-02T12:00:00+01:00",
       "platform": "facebook",
-      "id": "20261109-1200-facebook",
+      "id": "20261102-1200-facebook",
       "status": "planned"
     },
     {
-      "category": "marque",
-      "ref": "marque-4",
-      "format": "reel",
-      "caption": "Le DPE expliqué simplement 🏡\n\n→ Il note la performance énergétique\n→ De A à G\n→ Il influence la valeur et la location\n→ Des travaux peuvent l'améliorer\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "category": "biens",
+      "ref": "A100",
+      "format": "carousel",
+      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Commente « INFO » ou écris-moi en message privé, ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier #appartement #achatimmobilier #visite",
       "media": [
-        "demo/out/assets/marque-4/reel.mp4"
+        "demo/out/assets/A100/carousel/slide_01.jpg",
+        "demo/out/assets/A100/carousel/slide_02.jpg",
+        "demo/out/assets/A100/carousel/slide_03.jpg",
+        "demo/out/assets/A100/carousel/slide_04.jpg",
+        "demo/out/assets/A100/carousel/slide_05.jpg",
+        "demo/out/assets/A100/carousel/slide_06.jpg"
       ],
-      "when": "2026-11-09T12:30:00+01:00",
+      "when": "2026-11-02T12:30:00+01:00",
       "platform": "instagram",
-      "id": "20261109-1230-instagram",
+      "id": "20261102-1230-instagram",
       "status": "planned"
     },
     {
-      "category": "marque",
-      "ref": "marque-2",
+      "category": "biens",
+      "ref": "A100",
       "format": "reel",
-      "caption": "Acheter : les questions à poser avant de visiter 🏡\n\n→ Quel budget réel, frais compris ?\n→ Que dit le diagnostic énergétique ?\n→ Quelles charges de copropriété ?\n→ Quel quartier à long terme ?\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Commente « INFO » ou écris-moi en message privé, ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier",
       "media": [
-        "demo/out/assets/marque-2/reel.mp4"
+        "demo/out/assets/A100/reel.mp4"
       ],
-      "when": "2026-11-09T17:00:00+01:00",
+      "when": "2026-11-02T17:00:00+01:00",
       "platform": "youtube",
-      "id": "20261109-1700-youtube",
+      "id": "20261102-1700-youtube",
       "status": "planned"
     },
     {
@@ -393,9 +75,27 @@
       "media": [
         "demo/out/assets/marque-1/reel.mp4"
       ],
-      "when": "2026-11-09T18:00:00+01:00",
+      "when": "2026-11-02T18:00:00+01:00",
       "platform": "tiktok",
-      "id": "20261109-1800-tiktok",
+      "id": "20261102-1800-tiktok",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-2",
+      "format": "carousel",
+      "caption": "Acheter : les questions à poser avant de visiter 🏡\n\n→ Quel budget réel, frais compris ?\n→ Que dit le diagnostic énergétique ?\n→ Quelles charges de copropriété ?\n→ Quel quartier à long terme ?\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-2/carousel/slide_01.jpg",
+        "demo/out/assets/marque-2/carousel/slide_02.jpg",
+        "demo/out/assets/marque-2/carousel/slide_03.jpg",
+        "demo/out/assets/marque-2/carousel/slide_04.jpg",
+        "demo/out/assets/marque-2/carousel/slide_05.jpg",
+        "demo/out/assets/marque-2/carousel/slide_06.jpg"
+      ],
+      "when": "2026-11-03T18:30:00+01:00",
+      "platform": "instagram",
+      "id": "20261103-1830-instagram",
       "status": "planned"
     },
     {
@@ -411,9 +111,347 @@
         "demo/out/assets/marque-3/carousel/slide_05.jpg",
         "demo/out/assets/marque-3/carousel/slide_06.jpg"
       ],
+      "when": "2026-11-04T08:30:00+01:00",
+      "platform": "linkedin",
+      "id": "20261104-0830-linkedin",
+      "status": "planned"
+    },
+    {
+      "category": "biens",
+      "ref": "A100",
+      "format": "carousel",
+      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Commente « INFO » ou écris-moi en message privé, ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier",
+      "media": [
+        "demo/out/assets/A100/carousel/slide_01.jpg",
+        "demo/out/assets/A100/carousel/slide_02.jpg",
+        "demo/out/assets/A100/carousel/slide_03.jpg",
+        "demo/out/assets/A100/carousel/slide_04.jpg",
+        "demo/out/assets/A100/carousel/slide_05.jpg",
+        "demo/out/assets/A100/carousel/slide_06.jpg"
+      ],
+      "when": "2026-11-04T19:00:00+01:00",
+      "platform": "facebook",
+      "id": "20261104-1900-facebook",
+      "status": "planned"
+    },
+    {
+      "category": "biens",
+      "ref": "A100",
+      "format": "reel",
+      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Commente « INFO » ou écris-moi en message privé, ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier #appartement",
+      "media": [
+        "demo/out/assets/A100/reel.mp4"
+      ],
+      "when": "2026-11-04T20:00:00+01:00",
+      "platform": "tiktok",
+      "id": "20261104-2000-tiktok",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-4",
+      "format": "reel",
+      "caption": "Le DPE expliqué simplement 🏡\n\n→ Il note la performance énergétique\n→ De A à G\n→ Il influence la valeur et la location\n→ Des travaux peuvent l'améliorer\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-4/reel.mp4"
+      ],
+      "when": "2026-11-05T12:30:00+01:00",
+      "platform": "instagram",
+      "id": "20261105-1230-instagram",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-0",
+      "format": "reel",
+      "caption": "Pourquoi une estimation gratuite ne vaut pas toujours une vraie estimation 🏡\n\n→ Le prix affiché n'est pas le prix de vente\n→ Un bon prix se justifie par des ventes comparables\n→ Un prix trop haut allonge les délais\n→ Demande une estimation argumentée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-0/reel.mp4"
+      ],
+      "when": "2026-11-06T12:00:00+01:00",
+      "platform": "facebook",
+      "id": "20261106-1200-facebook",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-2",
+      "format": "reel",
+      "caption": "Acheter : les questions à poser avant de visiter 🏡\n\n→ Quel budget réel, frais compris ?\n→ Que dit le diagnostic énergétique ?\n→ Quelles charges de copropriété ?\n→ Quel quartier à long terme ?\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-2/reel.mp4"
+      ],
+      "when": "2026-11-06T17:00:00+01:00",
+      "platform": "youtube",
+      "id": "20261106-1700-youtube",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-1",
+      "format": "reel",
+      "caption": "Les erreurs à éviter quand on met son bien en vente 🏡\n\n→ Ne pas préparer les photos\n→ Surestimer son bien\n→ Négliger les diagnostics\n→ Se passer d'un accompagnement\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-1/reel.mp4"
+      ],
+      "when": "2026-11-06T18:00:00+01:00",
+      "platform": "tiktok",
+      "id": "20261106-1800-tiktok",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-5",
+      "format": "carousel",
+      "caption": "Comment se déroule une vente avec un agent 🏡\n\n→ Estimation\n→ Mise en valeur et diffusion\n→ Visites et offres\n→ Compromis puis acte\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-5/carousel/slide_01.jpg",
+        "demo/out/assets/marque-5/carousel/slide_02.jpg",
+        "demo/out/assets/marque-5/carousel/slide_03.jpg",
+        "demo/out/assets/marque-5/carousel/slide_04.jpg",
+        "demo/out/assets/marque-5/carousel/slide_05.jpg",
+        "demo/out/assets/marque-5/carousel/slide_06.jpg"
+      ],
+      "when": "2026-11-06T18:30:00+01:00",
+      "platform": "instagram",
+      "id": "20261106-1830-instagram",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-4",
+      "format": "texte",
+      "caption": "Le DPE expliqué simplement 🏡\n\n→ Il note la performance énergétique\n→ De A à G\n→ Il influence la valeur et la location\n→ Des travaux peuvent l'améliorer\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [],
+      "when": "2026-11-07T08:30:00+01:00",
+      "platform": "linkedin",
+      "id": "20261107-0830-linkedin",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-3",
+      "format": "carousel",
+      "caption": "Home staging : petits changements, grand effet 🏡\n\n→ Désencombre\n→ Lumière naturelle\n→ Neutralise les couleurs\n→ Soigne l'entrée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-3/carousel/slide_01.jpg",
+        "demo/out/assets/marque-3/carousel/slide_02.jpg",
+        "demo/out/assets/marque-3/carousel/slide_03.jpg",
+        "demo/out/assets/marque-3/carousel/slide_04.jpg",
+        "demo/out/assets/marque-3/carousel/slide_05.jpg",
+        "demo/out/assets/marque-3/carousel/slide_06.jpg"
+      ],
+      "when": "2026-11-07T19:00:00+01:00",
+      "platform": "facebook",
+      "id": "20261107-1900-facebook",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-5",
+      "format": "reel",
+      "caption": "Comment se déroule une vente avec un agent 🏡\n\n→ Estimation\n→ Mise en valeur et diffusion\n→ Visites et offres\n→ Compromis puis acte\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-5/reel.mp4"
+      ],
+      "when": "2026-11-07T20:00:00+01:00",
+      "platform": "tiktok",
+      "id": "20261107-2000-tiktok",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-0",
+      "format": "reel",
+      "caption": "Pourquoi une estimation gratuite ne vaut pas toujours une vraie estimation 🏡\n\n→ Le prix affiché n'est pas le prix de vente\n→ Un bon prix se justifie par des ventes comparables\n→ Un prix trop haut allonge les délais\n→ Demande une estimation argumentée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-0/reel.mp4"
+      ],
+      "when": "2026-11-08T12:30:00+01:00",
+      "platform": "instagram",
+      "id": "20261108-1230-instagram",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-3",
+      "format": "carousel",
+      "caption": "Home staging : petits changements, grand effet 🏡\n\n→ Désencombre\n→ Lumière naturelle\n→ Neutralise les couleurs\n→ Soigne l'entrée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-3/carousel/slide_01.jpg",
+        "demo/out/assets/marque-3/carousel/slide_02.jpg",
+        "demo/out/assets/marque-3/carousel/slide_03.jpg",
+        "demo/out/assets/marque-3/carousel/slide_04.jpg",
+        "demo/out/assets/marque-3/carousel/slide_05.jpg",
+        "demo/out/assets/marque-3/carousel/slide_06.jpg"
+      ],
+      "when": "2026-11-09T08:30:00+01:00",
+      "platform": "linkedin",
+      "id": "20261109-0830-linkedin",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-2",
+      "format": "reel",
+      "caption": "Acheter : les questions à poser avant de visiter 🏡\n\n→ Quel budget réel, frais compris ?\n→ Que dit le diagnostic énergétique ?\n→ Quelles charges de copropriété ?\n→ Quel quartier à long terme ?\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-2/reel.mp4"
+      ],
+      "when": "2026-11-09T12:00:00+01:00",
+      "platform": "facebook",
+      "id": "20261109-1200-facebook",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-1",
+      "format": "carousel",
+      "caption": "Les erreurs à éviter quand on met son bien en vente 🏡\n\n→ Ne pas préparer les photos\n→ Surestimer son bien\n→ Négliger les diagnostics\n→ Se passer d'un accompagnement\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-1/carousel/slide_01.jpg",
+        "demo/out/assets/marque-1/carousel/slide_02.jpg",
+        "demo/out/assets/marque-1/carousel/slide_03.jpg",
+        "demo/out/assets/marque-1/carousel/slide_04.jpg",
+        "demo/out/assets/marque-1/carousel/slide_05.jpg",
+        "demo/out/assets/marque-1/carousel/slide_06.jpg"
+      ],
+      "when": "2026-11-09T12:30:00+01:00",
+      "platform": "instagram",
+      "id": "20261109-1230-instagram",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-5",
+      "format": "reel",
+      "caption": "Comment se déroule une vente avec un agent 🏡\n\n→ Estimation\n→ Mise en valeur et diffusion\n→ Visites et offres\n→ Compromis puis acte\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-5/reel.mp4"
+      ],
+      "when": "2026-11-09T17:00:00+01:00",
+      "platform": "youtube",
+      "id": "20261109-1700-youtube",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-4",
+      "format": "reel",
+      "caption": "Le DPE expliqué simplement 🏡\n\n→ Il note la performance énergétique\n→ De A à G\n→ Il influence la valeur et la location\n→ Des travaux peuvent l'améliorer\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-4/reel.mp4"
+      ],
+      "when": "2026-11-09T18:00:00+01:00",
+      "platform": "tiktok",
+      "id": "20261109-1800-tiktok",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-0",
+      "format": "reel",
+      "caption": "Pourquoi une estimation gratuite ne vaut pas toujours une vraie estimation 🏡\n\n→ Le prix affiché n'est pas le prix de vente\n→ Un bon prix se justifie par des ventes comparables\n→ Un prix trop haut allonge les délais\n→ Demande une estimation argumentée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-0/reel.mp4"
+      ],
       "when": "2026-11-10T18:30:00+01:00",
       "platform": "instagram",
       "id": "20261110-1830-instagram",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-2",
+      "format": "texte",
+      "caption": "Acheter : les questions à poser avant de visiter 🏡\n\n→ Quel budget réel, frais compris ?\n→ Que dit le diagnostic énergétique ?\n→ Quelles charges de copropriété ?\n→ Quel quartier à long terme ?\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [],
+      "when": "2026-11-11T08:30:00+01:00",
+      "platform": "linkedin",
+      "id": "20261111-0830-linkedin",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-1",
+      "format": "carousel",
+      "caption": "Les erreurs à éviter quand on met son bien en vente 🏡\n\n→ Ne pas préparer les photos\n→ Surestimer son bien\n→ Négliger les diagnostics\n→ Se passer d'un accompagnement\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-1/carousel/slide_01.jpg",
+        "demo/out/assets/marque-1/carousel/slide_02.jpg",
+        "demo/out/assets/marque-1/carousel/slide_03.jpg",
+        "demo/out/assets/marque-1/carousel/slide_04.jpg",
+        "demo/out/assets/marque-1/carousel/slide_05.jpg",
+        "demo/out/assets/marque-1/carousel/slide_06.jpg"
+      ],
+      "when": "2026-11-11T19:00:00+01:00",
+      "platform": "facebook",
+      "id": "20261111-1900-facebook",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-3",
+      "format": "reel",
+      "caption": "Home staging : petits changements, grand effet 🏡\n\n→ Désencombre\n→ Lumière naturelle\n→ Neutralise les couleurs\n→ Soigne l'entrée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-3/reel.mp4"
+      ],
+      "when": "2026-11-11T20:00:00+01:00",
+      "platform": "tiktok",
+      "id": "20261111-2000-tiktok",
+      "status": "planned"
+    },
+    {
+      "category": "biens",
+      "ref": "A100",
+      "format": "reel",
+      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Commente « INFO » ou écris-moi en message privé, ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier #appartement #achatimmobilier #visite",
+      "media": [
+        "demo/out/assets/A100/reel.mp4"
+      ],
+      "when": "2026-11-12T12:30:00+01:00",
+      "platform": "instagram",
+      "id": "20261112-1230-instagram",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-5",
+      "format": "reel",
+      "caption": "Comment se déroule une vente avec un agent 🏡\n\n→ Estimation\n→ Mise en valeur et diffusion\n→ Visites et offres\n→ Compromis puis acte\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-5/reel.mp4"
+      ],
+      "when": "2026-11-13T12:00:00+01:00",
+      "platform": "facebook",
+      "id": "20261113-1200-facebook",
+      "status": "planned"
+    },
+    {
+      "category": "biens",
+      "ref": "A100",
+      "format": "reel",
+      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Commente « INFO » ou écris-moi en message privé, ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier",
+      "media": [
+        "demo/out/assets/A100/reel.mp4"
+      ],
+      "when": "2026-11-13T17:00:00+01:00",
+      "platform": "youtube",
+      "id": "20261113-1700-youtube",
+      "status": "planned"
+    },
+    {
+      "category": "marque",
+      "ref": "marque-0",
+      "format": "reel",
+      "caption": "Pourquoi une estimation gratuite ne vaut pas toujours une vraie estimation 🏡\n\n→ Le prix affiché n'est pas le prix de vente\n→ Un bon prix se justifie par des ventes comparables\n→ Un prix trop haut allonge les délais\n→ Demande une estimation argumentée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
+      "media": [
+        "demo/out/assets/marque-0/reel.mp4"
+      ],
+      "when": "2026-11-13T18:00:00+01:00",
+      "platform": "tiktok",
+      "id": "20261113-1800-tiktok",
       "status": "planned"
     },
     {
@@ -429,100 +467,46 @@
         "demo/out/assets/marque-4/carousel/slide_05.jpg",
         "demo/out/assets/marque-4/carousel/slide_06.jpg"
       ],
-      "when": "2026-11-11T08:30:00+01:00",
-      "platform": "linkedin",
-      "id": "20261111-0830-linkedin",
-      "status": "planned"
-    },
-    {
-      "category": "biens",
-      "ref": "A100",
-      "format": "reel",
-      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Écris-moi en message privé ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier",
-      "media": [
-        "demo/out/assets/A100/reel.mp4"
-      ],
-      "when": "2026-11-11T19:00:00+01:00",
-      "platform": "facebook",
-      "id": "20261111-1900-facebook",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-5",
-      "format": "reel",
-      "caption": "Comment se déroule une vente avec un agent 🏡\n\n→ Estimation\n→ Mise en valeur et diffusion\n→ Visites et offres\n→ Compromis puis acte\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-5/reel.mp4"
-      ],
-      "when": "2026-11-11T20:00:00+01:00",
-      "platform": "tiktok",
-      "id": "20261111-2000-tiktok",
-      "status": "planned"
-    },
-    {
-      "category": "biens",
-      "ref": "A100",
-      "format": "reel",
-      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Écris-moi en message privé ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier #appartement #achatimmobilier #visite",
-      "media": [
-        "demo/out/assets/A100/reel.mp4"
-      ],
-      "when": "2026-11-12T12:30:00+01:00",
-      "platform": "instagram",
-      "id": "20261112-1230-instagram",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-1",
-      "format": "reel",
-      "caption": "Les erreurs à éviter quand on met son bien en vente 🏡\n\n→ Ne pas préparer les photos\n→ Surestimer son bien\n→ Négliger les diagnostics\n→ Se passer d'un accompagnement\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-1/reel.mp4"
-      ],
-      "when": "2026-11-13T12:00:00+01:00",
-      "platform": "facebook",
-      "id": "20261113-1200-facebook",
-      "status": "planned"
-    },
-    {
-      "category": "biens",
-      "ref": "A100",
-      "format": "reel",
-      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Écris-moi en message privé ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier",
-      "media": [
-        "demo/out/assets/A100/reel.mp4"
-      ],
-      "when": "2026-11-13T17:00:00+01:00",
-      "platform": "youtube",
-      "id": "20261113-1700-youtube",
-      "status": "planned"
-    },
-    {
-      "category": "biens",
-      "ref": "A100",
-      "format": "reel",
-      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Écris-moi en message privé ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier #appartement",
-      "media": [
-        "demo/out/assets/A100/reel.mp4"
-      ],
-      "when": "2026-11-13T18:00:00+01:00",
-      "platform": "tiktok",
-      "id": "20261113-1800-tiktok",
-      "status": "planned"
-    },
-    {
-      "category": "marque",
-      "ref": "marque-0",
-      "format": "reel",
-      "caption": "Pourquoi une estimation gratuite ne vaut pas toujours une vraie estimation 🏡\n\n→ Le prix affiché n'est pas le prix de vente\n→ Un bon prix se justifie par des ventes comparables\n→ Un prix trop haut allonge les délais\n→ Demande une estimation argumentée\n\nUne question ? Écris-moi, je réponds personnellement. Prénom Nom, Nom de l'agence (Ville).\n\n#immobilier #ville #conseilimmo #agentimmobilier",
-      "media": [
-        "demo/out/assets/marque-0/reel.mp4"
-      ],
       "when": "2026-11-13T18:30:00+01:00",
       "platform": "instagram",
       "id": "20261113-1830-instagram",
+      "status": "planned"
+    },
+    {
+      "category": "biens",
+      "ref": "A100",
+      "format": "texte",
+      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Commente « INFO » ou écris-moi en message privé, ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier",
+      "media": [],
+      "when": "2026-11-14T08:30:00+01:00",
+      "platform": "linkedin",
+      "id": "20261114-0830-linkedin",
+      "status": "planned"
+    },
+    {
+      "category": "biens",
+      "ref": "A100",
+      "format": "reel",
+      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Commente « INFO » ou écris-moi en message privé, ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier",
+      "media": [
+        "demo/out/assets/A100/reel.mp4"
+      ],
+      "when": "2026-11-14T19:00:00+01:00",
+      "platform": "facebook",
+      "id": "20261114-1900-facebook",
+      "status": "planned"
+    },
+    {
+      "category": "biens",
+      "ref": "A100",
+      "format": "reel",
+      "caption": "À vendre à Lyon (Croix-Rousse) 👀\n\nappartement · 72 m² · 3 pièces · 2 chambres\n✔ balcon plein sud\n✔ parking\n✔ proche métro\n\nEnvie de visiter ? Commente « INFO » ou écris-moi en message privé, ou appelle le 06 00 00 00 00.\n\n345 000 € FAI — Honoraires 4 % TTC à la charge de l'acquéreur — DPE : C / GES : B — Réf. A100\n\n#immobilier #lyon #agentimmobilier #bienimmobilier #appartement",
+      "media": [
+        "demo/out/assets/A100/reel.mp4"
+      ],
+      "when": "2026-11-14T20:00:00+01:00",
+      "platform": "tiktok",
+      "id": "20261114-2000-tiktok",
       "status": "planned"
     }
   ]

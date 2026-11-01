@@ -89,7 +89,7 @@ class TestE2E(Base):
         cats = {i["category"] for i in st["schedule"]}
         self.assertEqual(cats, {"biens", "marque"})
         fmts = {i["format"] for i in st["schedule"]}
-        self.assertEqual(fmts, {"carousel", "reel"})
+        self.assertEqual(fmts, {"carousel", "reel", "texte"})
         for i in st["schedule"]:
             for m in i["media"]:
                 self.assertTrue(Path(m).stat().st_size > 1000, m)

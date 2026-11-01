@@ -10,7 +10,7 @@ textes, carrousels, reels, contenu de marque personnelle, planning, mise à disp
 | 1 Intake | lit `inbox/<bien>/` ; fiche PDF/texte → `bien.yaml` pré-rempli **à relire** ; bloque les biens incomplets | `immo/property.py` |
 | 2 Rédacteur | légendes par réseau, scripts vidéo ; via Claude si `ANTHROPIC_API_KEY`, sinon modèles fixes ; **tout chiffre absent de la fiche est rejeté** ; prix/honoraires/DPE ajoutés par le code, jamais par l'IA | `immo/copy.py` |
 | 3 Designer | carrousels 1080×1350 (couverture, chiffres clés, atouts, mentions, CTA) aux couleurs de ta marque | `immo/visuals.py` |
-| 4 Réalisateur | reels 1080×1920 (zoom lent, sous-titres, prix, voix off optionnelle) ; **ta propre vidéo** est recadrée en 9:16 avec bandeau | `immo/video.py` |
+| 4 Réalisateur | reels 1080×1920 **dynamiques** (coupes rapides, 4 mouvements de caméra, sous-titres animés mot par mot, barre de progression, voix off/avatar + musique) ; **ta propre vidéo** est recadrée en 9:16 avec bandeau | `immo/video.py` |
 | 5 Planificateur | calendrier glissant (14 j), cadence par réseau, mix 65 % biens / 35 % marque, relance des biens actifs, 1 seul post « vendu/sous compromis », zéro doublon | `immo/planner.py` |
 | 6 Publicateur | `manual` : dossiers prêts + `TODAY.md` ; `webhook` : envoi vers Make/Zapier/n8n | `immo/publisher.py` |
 
@@ -52,3 +52,6 @@ Chaque jour, relance `python -m immo run` (cron, tâche planifiée, ou le workfl
 5. **Photos réelles** : testé avec des images synthétiques ; vérifie le rendu avec tes vraies photos.
 6. Le workflow `.github/workflows/immo-marketing-daily.yml` n'a **pas été exécuté**.
 7. Vidéos de marque sans photos : fond uni. Dépose quelques photos de toi/ta ville dans `brand/` pour les enrichir.
+
+## Vidéos dynamiques, avatar, apprentissage
+Voir `RECHERCHE_VIDEO.md` et `RECHERCHE_RESEAUX.md` (ce qui marche par réseau) (sources, limites, connecteurs). Nouveautés : `immo/dynamic.py`, `immo/avatar.py` (modes `clip` testé, `did` testé contre un faux serveur seulement), `immo/learn.py` (`python -m immo learn`).

@@ -2,7 +2,7 @@
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
-from . import copy as copywriter, visuals, video
+from . import copy as copywriter, visuals, video, avatar as avatar_mod, learn
 
 
 def spread(n):
@@ -11,6 +11,8 @@ def spread(n):
 
 
 def _assets_property(prop, fmt, cfg, outroot, lines):
+    if fmt == "texte":
+        return []
     base = Path(outroot) / "assets" / prop.key
     if fmt in ("carousel", "photo"):
         d = base / "carousel"
@@ -28,6 +30,8 @@ def _assets_property(prop, fmt, cfg, outroot, lines):
 
 
 def _assets_brand(idx, fmt, post, cfg, outroot):
+    if fmt == "texte":
+        return []
     title, pts = copywriter.TOPICS[idx % len(copywriter.TOPICS)]
     base = Path(outroot) / "assets" / f"marque-{idx % len(copywriter.TOPICS)}"
     if fmt in ("carousel", "photo"):
@@ -38,7 +42,12 @@ def _assets_brand(idx, fmt, post, cfg, outroot):
         return files[:1] if fmt == "photo" else files
     f = base / "reel.mp4"
     if not f.exists():
-        video.build_reel(post["script"], [], cfg, f)
+        av = None
+        try:
+            av = avatar_mod.make(cfg, ". ".join(post["script"]), base / "avatar.mp4", f"marque-{idx}")
+        except Exception as e:  # avatar indisponible => reel sans visage, on ne bloque pas
+            print(f"[avatar] {e} -> reel sans visage")
+        video.build_reel(post["script"], [], cfg, f, avatar=av)
     return [str(f)]
 
 
@@ -91,7 +100,7 @@ def _choose(cfg, props, sched, platform, pc, dt, outroot):
         if pool:
             pool.sort(key=lambda t: (t[0], t[1]))
             cand = pool[0][2]
-    fmts = pc["formats"]
+    fmts = learn.format_order(outroot, platform, pc["formats"])
     if cand:
         k = sum(1 for i in mine if i["platform"] == platform and i["category"] == "biens")
         fmt = fmts[k % len(fmts)]

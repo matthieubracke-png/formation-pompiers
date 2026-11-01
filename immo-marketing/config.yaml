@@ -29,7 +29,7 @@ llm:
 plateformes:
   instagram: { formats: [carousel, reel], par_semaine: 5, heures: ["12:30", "18:30"] }
   facebook:  { formats: [carousel, reel], par_semaine: 4, heures: ["12:00", "19:00"] }
-  linkedin:  { formats: [carousel],       par_semaine: 3, heures: ["08:30"] }
+  linkedin:  { formats: [carousel, texte], par_semaine: 3, heures: ["08:30"] }
   tiktok:    { formats: [reel],           par_semaine: 4, heures: ["18:00", "20:00"] }
   youtube:   { formats: [reel],           par_semaine: 2, heures: ["17:00"] }
 
@@ -50,3 +50,10 @@ publication:
 voix:
   commande: null
   musique: null          # chemin vers un mp3 libre de droits (optionnel)
+
+# Présentateur qui parle (sans te filmer). provider : none | clip | did
+avatar:
+  provider: none
+  dossier: brand/avatar     # clip : mets-y des .mp4 de présentateur (vidéos générées par l'outil de ton choix)
+  photo_url: null           # did : URL publique d'UNE photo de face (clé dans DID_API_KEY)
+  voix: "fr-FR-DeniseNeural"

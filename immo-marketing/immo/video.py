@@ -53,39 +53,16 @@ def tts(lines, cfg, workdir):
     return out if out.exists() else None
 
 
-def build_reel(lines, images, cfg, out, prop=None):
-    """lines: un sous-titre par scène ; images: liste de photos (réutilisées en boucle)."""
-    need_ffmpeg()
-    out = Path(out)
-    out.parent.mkdir(parents=True, exist_ok=True)
+def build_reel(lines, images, cfg, out, prop=None, avatar=None):
+    """Reel dynamique (voir immo/dynamic.py). images: photos, réutilisées en boucle."""
+    from . import dynamic
+    brand_dir = Path(cfg["_base"]) / cfg["brand"].get("photos_marque", "brand/")
+    pics = list(images) or (sorted(p for p in brand_dir.glob("*")
+                                   if p.suffix.lower() in {".jpg", ".jpeg", ".png"}) if brand_dir.is_dir() else [])
     with tempfile.TemporaryDirectory() as tmp:
-        tmp = Path(tmp)
-        brand_dir = Path(cfg["_base"]) / cfg["brand"].get("photos_marque", "brand/")
-        pics = list(images) or (sorted(p for p in brand_dir.glob("*")
-                                       if p.suffix.lower() in {".jpg", ".jpeg", ".png"}) if brand_dir.is_dir() else [])
-        clips = []
-        for i, line in enumerate(lines):
-            src = pics[i % len(pics)] if pics else None
-            bg = tmp / f"bg{i}.jpg"
-            background((W, H), src, cfg, darken=0.15 if src else 0).save(bg)
-            ov = tmp / f"ov{i}.png"
-            last = i == len(lines) - 1
-            _overlay(line, cfg, ov, price=prop.prix_txt() if (prop and last) else None,
-                     status=status_label(prop) if prop else None)
-            clip = tmp / f"c{i}.mp4"
-            _scene(bg, ov, clip, SCENE)
-            clips.append(clip)
-        lst = tmp / "list.txt"
-        lst.write_text("".join(f"file '{c}'\n" for c in clips))
-        silent = tmp / "silent.mp4"
-        run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(silent)])
-        audio = tts(lines, cfg, tmp) or ((cfg.get("voix") or {}).get("musique"))
-        if audio and Path(audio).exists():
-            run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), "-i", str(audio), "-map", "0:v", "-map", "1:a",
-                 "-c:v", "copy", "-c:a", "aac", "-shortest", str(out)])
-        else:
-            shutil.copyfile(silent, out)
-    return str(out)
+        voice = None if avatar else tts(lines, cfg, tmp)
+        return dynamic.build(lines, pics, cfg, out, voice=voice, avatar=avatar, prop=prop,
+                             status=status_label(prop) if prop else None)
 
 
 def reframe_video(src, cfg, out, headline="", prop=None):
